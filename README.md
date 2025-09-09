@@ -42,3 +42,18 @@ Customer churn is a critical metric for telecom companies. This project uses thr
    ```bash
    git clone https://github.com/your-username/Customer-Churn-Model.git
    cd Customer-Churn-Model
+   
+2. Install dependencies:
+   ```bash
+   pip install pandas numpy scikit-learn matplotlib seaborn
+3. Run the Script:
+   ```bash
+   python Model_Script.py
+
+## 📌 Notes
+Class imbalance is addressed using class_weight='balanced'
+
+ROC-AUC is used as a robust metric for model comparison
+
+Feature importance helps interpret model decisions
+
